@@ -1,0 +1,43 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.image{
+    background-image: url("https://images.unsplash.com/photo-1487215078519-e21cc028cb29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.btn{
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-seri;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .text{
+    font-family: Verdana, Geneva, Tahoma, sans-seri;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    top: 43%;
+    left: 50%;
+  }
